@@ -19,7 +19,7 @@ You drop in PDFs, CSVs and Markdown, ask questions in a React chat, and get answ
 | Phase | Topic | Weeks | Status |
 |---|---|---|---|
 | 0 | Foundations | 1 | ✅ |
-| 1 | Embeddings from scratch | 1–2 | ⬜ |
+| 1 | Embeddings from scratch | 1–2 | ✅ |
 | 2 | Ingestion pipeline | 2–3 | ⬜ |
 | 3 | Naive RAG + React chat | 3–4 | ⬜ |
 | 4 | Observability with Langfuse | 4–5 | ⬜ |
@@ -163,16 +163,16 @@ docpilot/
 ## Phase 1: Embeddings from scratch (week 1–2)
 
 **Learn**
-- [ ] Embedding = text → vector; similar meaning → nearby vectors
-- [ ] Cosine similarity vs dot product, normalization
-- [ ] Why queries and documents must use the **same** embedding model
-- [ ] Limits: fuzzy, bad at exact IDs, numbers, negation
+- [x] Embedding = text → vector; similar meaning → nearby vectors
+- [x] Cosine similarity vs dot product, normalization
+- [x] Why queries and documents must use the **same** embedding model
+- [x] Limits: fuzzy, bad at exact IDs, numbers, negation
 
 **Build**
-- [ ] Embed ~50 sentences with `litellm.embedding()`, store in a NumPy array
-- [ ] Write `search(query, k)` yourself: cosine similarity + `argsort` (no vector DB)
-- [ ] Try queries that work ("how do I get a refund") and ones that fail ("invoice #A-1043")
-- [ ] Compare 2 embedding models on the same 10 queries
+- [x] Embed ~50 sentences with `litellm.embedding()`, store in a NumPy array
+- [x] Write `search(query, k)` yourself: cosine similarity + `argsort` (no vector DB)
+- [x] Try queries that work ("how do I get a refund") and ones that fail ("invoice #A-1043")
+- [x] Compare 2 embedding models on the same 10 queries
 
 **✅ Done when:** you can explain why "invoice #A-1043" fails, and your semantic search is under 40 lines.
 

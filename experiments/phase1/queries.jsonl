@@ -1,0 +1,11 @@
+{"query": "posso gastar mais do que tenho na conta?", "expected": "Um descoberto bancário permite gastar mais do que o saldo disponível até um limite acordado.", "type": "paraphrase"}
+{"query": "como sei logo quando alguém me tira dinheiro?", "expected": "Ativa as notificações push para receberes um aviso sempre que sair dinheiro da tua conta.", "type": "paraphrase"}
+{"query": "mudei de casa, onde ponho o novo endereço?", "expected": "Atualiza a morada de correspondência nas definições do perfil.", "type": "paraphrase"}
+{"query": "preciso de um documento que mostre que sou o dono da conta", "expected": "Descarrega um comprovativo de titularidade para provar que a conta está em teu nome.", "type": "paraphrase"}
+{"query": "estado da autorização DD-5912", "expected": "A autorização de débito direto DD-5912 aguarda confirmação.", "type": "exact_id"}
+{"query": "o pedido CR-7268 já foi aceite?", "expected": "O pedido de substituição de cartão CR-7268 foi aprovado.", "type": "exact_id"}
+{"query": "quanto custa a manutenção da conta? pago 5 euros por mês?", "expected": "A comissão mensal de manutenção é de 5 €.", "type": "number"}
+{"query": "posso tirar 2000 euros por dia numa caixa?", "expected": "O limite diário de levantamentos no Multibanco é de 2000 €.", "type": "number"}
+{"query": "o quiosque recusa notas e moedas?", "expected": "Os depósitos em numerário não são aceites nos quiosques de autosserviço.", "type": "negation"}
+{"query": "as contas jovens bloqueiam transferências para o estrangeiro?", "expected": "As transferências internacionais não estão disponíveis nas contas jovens.", "type": "negation"}
+{"query": "como recebo o meu dinheiro de volta?", "expected": null, "type": "no_answer"}
